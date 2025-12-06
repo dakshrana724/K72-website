@@ -1,12 +1,83 @@
-# React + Vite
+# 🚀 K72 Website — React + Tailwind + GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated, high-performance web experience built using **React**, **Tailwind CSS**, and **GSAP**.  
+This project focuses on bold typography, smooth animations, and clean UI interactions inspired by modern creative agency websites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+|-----------|----------|
+| ⚛️ **React** | Component-based UI |
+| 🌬 **Tailwind CSS** | Utility-first styling |
+| 🎞 **GSAP** | Smooth animations + transitions |
+| 🖼️ **FontAwesome / Icons** | Extra UI polish |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎨 Modern, bold UI design  
+- ⚡ Smooth GSAP animations (marquee, transitions, fade, motion)  
+- 🧱 Fully responsive using Tailwind  
+- 🔥 Creative scroll + navigation behavior  
+- 💌 Animated “HELLO@K72.ca” marquee strip  
+- 💫 Extra micro-interactions and subtle effects for a premium feel  
+
+---
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── context/
+ ├── styles/
+ └── App.jsx
+
+ ---
+
+🎬 GSAP Animations
+
+This project uses GSAP for:
+
+Infinite marquee animation
+
+Smooth nav transitions
+
+Fade-in text effects
+
+Scroll direction–based UI behavior
+
+GSAP helps give the site a premium motion-design feel.
+
+---
+
+🙌 Extra Touch
+
+This project is crafted with:
+
+❤️ Attention to detail
+
+🎯 Clean UI/UX decisions
+
+🔥 Motion-centric design
+
+✨ A creative agency aesthetic
+
+Perfect as a portfolio piece or starter template for a modern animated website.
+
+---
+
+📄 License
+
+This project is open-source.
+Feel free to use, modify, or build upon it.
+
+---
+
+👤 Author
+
+Daksh Rana
+GitHub: https://github.com/dakshrana724
+
+
