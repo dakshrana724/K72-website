@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: font1;
+    src: url(/fonts/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(/fonts/Lausanne-500.woff2);
+}
+
+
+.moveX{
+    animation-name:moveAnimation ;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+.moveZ{
+    animation-name: movecontact ;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+
+.moveZ{
+    /* opacity: 0; */
+    transition: all ease 0.8s;
+}
+.moveLink{
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+.links:hover .moveLink{
+    opacity: 1;
+    /* transition: all; */
+}
+
+
+
+
+@keyframes moveAnimation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
+    
+}
+@keyframes movecontact {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+body{
+    background-color:#111 ;
+}
